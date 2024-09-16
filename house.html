@@ -1,0 +1,178 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accommodation View</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .register-btn {
+        background: #004d00; 
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .mustard-yellow {
+        color: #004d00; 
+    }
+    .phthalo-text {
+        color: #004d00; 
+    }
+    </style>
+</head>
+<body>
+    <div class="house-details" data-aos="fade-up"></div>
+    <nav id="navBar" class="navBar-white">
+        <a href="index.html">
+            <img src="images/logo.png"  class="logo">
+        </a>
+        
+        <ul class="nav-links">
+            <li><a href="#" class="phthalo-text">Popular places</a></li>
+            <li><a href="#" class="phthalo-text">Travel Outside</a></li>
+            <li><a href="listing.html">Online Packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details" data=-aos="fade-up">
+        <h1 class="phthalo-text">Kaur Estates</h1>
+        <div class="row">
+            <div>
+                <i class="fa-solid fa-star phthalo-text"></i>
+                <i class="fa-solid fa-star phthalo-text"></i>
+                <i class="fa-solid fa-star phthalo-text"></i>
+                <i class="fa-solid fa-star-half-stroke phthalo-text"></i>
+                <i class="fa-regular fa-star phthalo-text"></i>
+                <span>450 Reviews</span>
+            </div>
+            <div>
+                <p><b>Location: Malaysia</b></p>
+            </div>
+        </div>
+        <div class="gallery">
+            <div><img src="images/h1.jpg" alt="Gallery Image 1"></div>
+            <div><img src="images/h9.jpg" alt="Gallery Image 2"></div>
+            <div><img src="images/h3.jpg" alt="Gallery Image 3"></div>
+            <div><img src="images/h4.jpg" alt="Gallery Image 4"></div>
+            <div><img src="images/h6.jpeg" alt="Gallery Image 5"></div>
+            <div><img src="images/h10.jpeg" alt="Gallery Image 6"></div>
+            <div><img src="images/h7.jpg" alt="Gallery Image 7"></div>
+            <div><img src="images/h11.jpg" alt="Gallery Image 8"></div>
+        </div>
+        <div class="trivial-details">
+            <b><h2 class="phthalo-text">Brandon oversees the entire rental arrangement</h2></b>
+            <p>2 guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 3 Bathroom</p>
+            <h4>$ 250 / day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div> 
+                <b><label class="phthalo-text">Check-in</label></b>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div> 
+                <b><label class="phthalo-text">Check-out</label></b>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div class="guest-field"> 
+                <b><label class="phthalo-text">Guest</label></b>
+                <input type="text" placeholder="2 guest">
+            </div>
+            <button type="submit" class="phthalo-text">Check Availability</button>
+        </form>
+        <ul class="exhaustive-enumeration">
+        <li>
+            <i class="fa-solid fa-house phthalo-text"></i>
+            <strong class="phthalo-text">Suites and Villas:</strong>
+            <span class="black-text">Exclusive rooms with private lounges, multiple bedrooms, and luxurious bathrooms</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-utensils phthalo-text"></i>
+            <strong class="phthalo-text">In-Room Dining:</strong>
+            <span class="black-text">24-hour service offering the hotel menu delivered to your room</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-dumbbell phthalo-text"></i>
+            <strong class="phthalo-text">Fitness Center:</strong>
+            <span class="black-text">Equipped with modern exercise machines, sometimes including personal trainers or classes like yoga</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-person-swimming phthalo-text"></i>
+            <strong class="phthalo-text">Leisure & Entertainment:</strong>
+            <span class="black-text">Infinity pools, rooftop pools, or heated pools with cabanas and poolside service</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-cart-flatbed-suitcase phthalo-text"></i>
+            <strong class="phthalo-text">Exclusive Services:</strong>
+            <span class="black-text">Personalized services that cater to guest needs like unpacking luggage or setting up meals</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-solar-panel phthalo-text"></i>
+            <strong class="phthalo-text">Sustainability & Eco-Friendly Features:</strong>
+            <span class="black-text">Solar power, energy-saving lighting, and water conservation initiatives</span>
+        </li>
+    </ul>
+        
+    <hr class="line">
+        <p class="home-desc">Discover a sanctuary of elegance and refinement at Hotel, where every detail is designed to elevate your experience to new heights of luxury. Nestled in the heart of <strong>Malaysia</strong>, our five-star retreat promises an unforgettable escape from the ordinary. We pride ourselves on providing exceptional, personalized service. Our dedicated team is committed to anticipating your every need, ensuring that your stay is nothing short of extraordinary. Step into a world of luxury and sophistication. Reserve your stay at Hotel today and embark on a journey of unparalleled comfort and indulgence.</p>
+    <hr class="line">
+    
+    <div class="map">
+        <h3 class="phthalo-text">Location on map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16301108.252455372!2d98.90430916529661!3d4.06869869321359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3034d3975f6730af%3A0x745969328211cd8!2sMalaysia!5e0!3m2!1sen!2sin!4v1726380063631!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <b class="phthalo-text">Malaysia</b>
+        <p>Your sanctuary away from home</p>
+    </div>
+    <hr class="line">
+    
+    <div class="host">
+    <img src="images/org.jpeg" alt="Host Image">
+    <div class="host-details">
+        <h2 class="phthalo-text">Directed by Brandon</h2>
+        <div>
+            <i class="fa-solid fa-star phthalo-text"></i>
+            <i class="fa-solid fa-star phthalo-text"></i>
+            <i class="fa-solid fa-star phthalo-text"></i>
+            <i class="fa-solid fa-star-half-stroke phthalo-text"></i>
+            <i class="fa-regular fa-star phthalo-text"></i>
+            <span>&nbsp; &nbsp; 300 Reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; Response time: 60min </span>
+        </div>
+        <div>
+            <span><b>"As CEO,Harpreet is focused on driving XploreX’s growth through continuous innovation and strategic partnerships.She believes in fostering a culture of creativity and collaboration, empowering his team to push the boundaries of what’s possible.Harpreet's leadership is characterized by his hands-on approach and his unwavering commitment to delivering unparalleled experiences to XploreX’s customers."</b></span>
+        </div>
+    </div>
+    <a href="#" class="contact-organizer">Contact Organizer</a>
+    </div> 
+    
+    </div>
+    <div class="container">
+        <div class="footer">
+            <i class="fa-brands fa-square-twitter phthalo-text"></i>
+            <i class="fa-brands fa-square-instagram phthalo-text"></i>
+            <i class="fa-brands fa-linkedin phthalo-text"></i> 
+            <i class="fa-brands fa-square-facebook phthalo-text"></i>
+            <hr>
+        <p>Copyright @2024 XploreX</p>
+        </div> 
+    </div>
+    <script>
+        var navBar = document.getElementById("navBar");
+        function togglebtn(){ 
+            avBar.classList.toggle("hidemenu");
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
